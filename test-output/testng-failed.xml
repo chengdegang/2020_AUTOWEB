@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="spider_maven(failed)">
+    <classes>
+      <class name="spider_maven.spider">
+        <methods>
+          <include name="sou" invocation-numbers="4"/>
+          <include name="afterClass"/>
+          <include name="beforeclass"/>
+          <include name="afterMthod"/>
+        </methods>
+      </class> <!-- spider_maven.spider -->
+    </classes>
+  </test> <!-- spider_maven(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

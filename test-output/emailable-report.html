@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Default Suite</th></tr>
+<tr><td><a href="#t0">spider_maven</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">43,885</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">spider_maven &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">spider_maven.spider</td><td><a href="#m0">sou</a></td><td rowspan="1">1608621364370</td><td rowspan="1">5352</td></tr><tr><th colspan="4">spider_maven &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">spider_maven.spider</td><td><a href="#m1">sou</a></td><td rowspan="4">1608621338203</td><td rowspan="4">1036</td></tr><tr class="passedeven"><td><a href="#m2">sou</a></td></tr><tr class="passedeven"><td><a href="#m3">sou</a></td></tr><tr class="passedeven"><td><a href="#m4">sou</a></td></tr></tbody>
+</table>
+<h2>spider_maven</h2><h3 id="m0">spider_maven.spider#sou</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>15560000001</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;haoma-tag&apos;]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;jackdeMacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:180f:ce7f:2e04:97fb%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/j6/52xpr7hs3x5...}, goog:chromeOptions: {debuggerAddress: localhost:58023}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8b1da5fe9e58715f2405412eda7cec5b
+*** Element info: {Using=xpath, value=//span[@class=&apos;haoma-tag&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at spider_maven.spider.sou(spider.java:54)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">spider_maven.spider#sou</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>18600000043</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">spider_maven.spider#sou</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>15560000038</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">spider_maven.spider#sou</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>15560000000</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">spider_maven.spider#sou</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>18600000045</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
