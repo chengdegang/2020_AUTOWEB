@@ -20,9 +20,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-//gengxintag1.0.5
-
-//1.0.66666
+//1.0.77777
 
 public class spider {
     static WebDriver driver;
