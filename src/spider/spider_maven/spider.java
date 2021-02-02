@@ -19,7 +19,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
+//gengxintag
 public class spider {
     static WebDriver driver;
 
@@ -65,7 +65,8 @@ public class spider {
                 {"18600000043"},
 				{"18600000045"},
                 {"15560000038"},
-                {"15560000000"}
+                {"15560000000"},
+                {"CESCES"}
         };
 
     }
